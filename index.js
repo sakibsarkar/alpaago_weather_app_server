@@ -5,7 +5,7 @@ const app = express()
 const jwt = require("jsonwebtoken")
 const cors = require("cors")
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://weatherapp-e8608.web.app"],
     credentials: true
 }))
 
